@@ -1,12 +1,6 @@
 
-!pip install yfinance
-
-!pip install streamlit==1.20.0
 
 import streamlit as st
-
-
-%%writefile app.py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
